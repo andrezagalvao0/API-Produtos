@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProdutosAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ProdutosAPI.Controllers.ProdutosController.CreateProduto(ProdutosAPI.Models.Produto)">
+            <summary>
+            Cadastra um produto desejado. OBS: Não é necessário informar o id, o banco incrementa de forma dinâmica.
+            </summary>
+            <remarks>
+            Exemplo: 
+                
+                Post /Produto
+                {
+                    "id": 0,
+                    "nome": "Arroz",
+                    "quantidade": 100,
+                    "valor": 3.50
+                 }
+            </remarks>
+            <param name="produto"></param>
+            <returns>Um novo produto criado</returns>
+        </member>
+        <member name="M:ProdutosAPI.Controllers.ProdutosController.GetProdutos">
+            <summary>
+            Lista os produtos cadastrados
+            </summary>
+            <returns>Os produtos armazenados</returns>
+            <response code="200"> Retorna os produtos cadastrados</response>
+        </member>
+    </members>
+</doc>
