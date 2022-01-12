@@ -1,5 +1,4 @@
 # API-Produtos
-API desenvolvida para o teste prático da Ploomes. 
 Foi desenvolvida uma API para armazenar e obter dados de produtos de um fictício supermercado.  
 
 # Tecnologias e Ferramentas Utilizadas
