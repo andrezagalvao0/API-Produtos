@@ -2,7 +2,7 @@
 Foi desenvolvida uma API para armazenar e obter dados de produtos de um fictício supermercado.  
 
 # Tecnologias e Ferramentas Utilizadas
-- ASP.NET core 5
+- ASP.NET Core 5
 - Entity Framework Core
 - Sql Server
 - Swagger(para documentação da API)
