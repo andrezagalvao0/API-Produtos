@@ -93,22 +93,7 @@ namespace ProdutosAPI
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
 
-                //var security = new Dictionary<string, IEnumerable<string>>
-                //{
-                //    {"Bearer", new string[] { }},
-                //};
-
-                //c.AddSecurityDefinition(
-                //    "Bearer",
-                //    new ApiKeyScheme
-                //    {
-                //        In = "header",
-                //        Description = "Copie 'Bearer ' + token'",
-                //        Name = "Authorization",
-                //        Type = "apiKey"
-                //    });
-
-                //c.AddSecurityRequirement(security);
+               
 
             });
             services.AddDbContext<AppDbContext>(option => option.UseSqlServer(Configuration.GetConnectionString("ServerConnection")));
