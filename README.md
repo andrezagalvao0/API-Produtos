@@ -8,4 +8,6 @@ Foi desenvolvida uma API para armazenar e obter dados de produtos de um fictíci
 - Swagger(para documentação da API)
 - Bearer e JWT(para autenticação e autorização)
 
+# Vídeo Demonstrativo do funcionamento
+https://drive.google.com/file/d/1RXtGXye1r3K6KfMwOnQfzl2a2_3y65cN/view?usp=sharing
 
